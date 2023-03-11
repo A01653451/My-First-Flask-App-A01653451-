@@ -14,3 +14,13 @@ Instrucciones
     http://localhost:5000/
 
 4.- Ingrese su nombre de usuario y contraseña para acceder (el nombre de usuario debe de comenzar con mayúscula y la contraseña debe de contener únicamente letras y números, de lo contrario no se dará acceso).
+
+5.- En cuanto se quiera detener el contenedor ingrese los siguientes comandos:
+
+    docker ps
+
+6.- Copie el "CONTAINER ID" del contenedor que quiera detener.
+
+7.- Ingrese el siguiente comando sustituyendo <ID> por el "CONTAINER ID" (ej. docker stop f13737dff6a8 ):
+
+    docker stop <ID>
